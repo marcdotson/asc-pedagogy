@@ -1,0 +1,79 @@
+---
+title: "Enabling Experiential Learning: Utah State University's Analytics Solutions Center"
+author: 
+  - name: "Tyler Brough"
+    affiliation: "Utah State University"
+    email: "tyler.brough@usu.edu"
+  - name: "Polly Conrad"
+    affiliation: "Utah State University"
+    email: "polly.conrad@usu.edu"
+  - name: "Chris Corcoran"
+    affiliation: "Utah State University"
+    email: "chris.corcoran@usu.edu"
+  - name: "Doug Derrick"
+    affiliation: "Utah State University"
+    email: "doug.derrick@usu.edu"
+  - name: "Marc Dotson"
+    affiliation: "Utah State University"
+    email: "marc.dotson@usu.edu"
+  - name: "Kelly Fadel"
+    affiliation: "Utah State University"
+    email: "kelly.fadel@usu.edu"
+  - name: "Sharad Jones"
+    affiliation: "Utah State University"
+    email: "sharad.jones@usu.edu"
+  - name: "Reagan Siggard"
+    affiliation: "Utah State University"
+    email: "reagan.siggard@usu.edu"
+  - name: "Brinley Zabriskie"
+    affiliation: "Utah State University"
+    email: "brinley.zabriskie@usu.edu"
+date: "June 15, 2026"
+abstract: | 
+  Higher education is changing. Public trust in the value proposition of universities and colleges has eroded in recent decades while their traditional institutional function of storing, creating, and disseminating knowledge has been challenged by content delivery on the internet and private industry investment in research and development. In response, there has been a growing emphasis within higher education on what university and colleges can uniquely provide students, including experiential learning. However, there is a dearth of research on how to enable experiential learning effectively. We detail how the Analytics Solutions Center at Utah State University has incentivized alignment of its faculty and industry partners to enable transformative experiential learning experiences for students.
+keywords:
+  - "Experiential Learning"
+  - "Pedagogy"
+bibliography: references.bib
+format: 
+  jasa-pdf: 
+    keep-tex: true
+    cite-method: natbib
+    journal:
+      blinded: false
+execute:
+  echo: false
+---
+
+## Introduction {#sec-intro}
+
+Higher education is changing. Public trust in the value proposition of universities and colleges has eroded in recent decades while their traditional institutional function of storing, creating, and disseminating knowledge has been challenged by content delivery on the internet and private industry investment in research and development. In response, there has been a growing emphasis within higher education on what university and colleges can uniquely provide students, including experiential learning.
+
+Experiential learning is quite simply learning by doing. It includes real-world experience, internships, and project-based learning. While there is a growing body of research on its benefits, there is a dearth of research on how to enable experiential learning effectively. In this paper, we detail how the Analytics Solutions Center in the Jon M. Hunstman School of Business at Utah State University has incentivized alignment of its faculty and industry partners to enable transformative experiential learning experiences for students.
+
+## Experiential Learning {#sec-literature}
+
+**Reagan** with Polly, Marc, Sharad, Brinley?
+
+- Literature review on the benefits of experiential learning
+- Reference to relevant pedagogical frameworks
+- Literature (if any?) on how to enable experiential learning effectively
+- Discussion of the barriers in higher education to aligning incentives
+
+## The Analytics Solutions Center {#sec-asc}
+
+**Marc** with Tyler, Polly, Chris, Doug, Kelly, Sharad?
+
+- Genesis of the ASC
+- Reference mission and values
+- Describe role of mentorship and community
+- Reference ASC recognition and success (number of sponsors, money raised, etc.)
+- Detail faculty mentor incentive alignment, both professional practice and tenure-track roles, including a discussion of the relationship between ASC and academic research
+- Detail industry partner incentive alignment, including the donation-based funding model
+
+## Conclusion {#sec-conclusion}
+
+- Summarize the benefits of and challenges for experiential learning in higher education
+- Summarize what the ASC has done to address these challenges and enable experiential learning
+- Discuss implications for Utah State University specifically and higher education more broadly
+
