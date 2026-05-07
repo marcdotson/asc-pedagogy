@@ -1,9 +1,9 @@
 ---
-title: "Project Template"
+title: "Enabling Experiential Learning: Utah State University's Analytics Solutions Center"
 format: gfm
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Higher education is changing. Public trust in the value proposition of universities and colleges has eroded in recent decades while their traditional institutional function of storing, creating, and disseminating knowledge has been challenged by content delivery on the internet and private industry investment in research and development. In response, there has been a growing emphasis within higher education on what university and colleges can uniquely provide students, including experiential learning. However, there is a dearth of research on how to enable experiential learning effectively. We detail how the Analytics Solutions Center at Utah State University has incentivized alignment of its faculty and industry partners to enable transformative experiential learning experiences for students.
 
 ## Project Organization
 
