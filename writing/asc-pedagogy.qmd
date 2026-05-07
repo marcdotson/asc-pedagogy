@@ -22,6 +22,9 @@ author:
   - name: "Sharad Jones"
     affiliation: "Utah State University"
     email: "sharad.jones@usu.edu"
+  - name: "Robert Mills"
+    affiliation: "Utah State University"
+    email: "robert.mills@usu.edu"
   - name: "Reagan Siggard"
     affiliation: "Utah State University"
     email: "reagan.siggard@usu.edu"
@@ -53,7 +56,7 @@ Experiential learning is quite simply learning by doing. It includes real-world 
 
 ## Experiential Learning {#sec-literature}
 
-**Reagan** with Polly, Marc, Sharad, Brinley?
+**Reagan** with Polly, Marc, Sharad, Bob, Brinley?
 
 - Literature review on the benefits of experiential learning
 - Reference to relevant pedagogical frameworks
@@ -67,7 +70,8 @@ Experiential learning is quite simply learning by doing. It includes real-world 
 - Genesis of the ASC
 - Reference mission and values
 - Describe role of mentorship and community
-- Reference ASC recognition and success (number of sponsors, money raised, etc.)
+- Reference ASC recognition and success (number of sponsors, money raised, placement numbers, etc.)
+- Include additional anecdotal evidence of sucess (e.g., student and partner testimonials)
 - Detail faculty mentor incentive alignment, both professional practice and tenure-track roles, including a discussion of the relationship between ASC and academic research
 - Detail industry partner incentive alignment, including the donation-based funding model
 
