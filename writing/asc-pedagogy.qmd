@@ -19,6 +19,9 @@ author:
   - name: "Kelly Fadel"
     affiliation: "Utah State University"
     email: "kelly.fadel@usu.edu"
+  - name: "Chelsea Harding"
+    affiliation: "Utah State University"
+    email: "chelsea.harding@usu.edu"
   - name: "Sharad Jones"
     affiliation: "Utah State University"
     email: "sharad.jones@usu.edu"
@@ -79,5 +82,6 @@ Experiential learning is quite simply learning by doing. It includes real-world 
 
 - Summarize the benefits of and challenges for experiential learning in higher education
 - Summarize what the ASC has done to address these challenges and enable experiential learning
+- Plans for future research about the ASC, including tracking any additional student outcomes as part of ESL/NSF grant?
 - Discuss implications for Utah State University, including Sage Academy, specifically and higher education more broadly
 
