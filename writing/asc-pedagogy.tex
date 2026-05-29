@@ -113,6 +113,22 @@
 \addtolength{\textheight}{1.7in}%
 \addtolength{\topmargin}{-1in}%
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
@@ -254,6 +270,8 @@ experiential learning experiences for students.
 
 \section{Experiential Learning}\label{sec-literature}
 
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, bottomrule=.15mm, bottomtitle=1mm, breakable, colback=white, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, coltitle=black, left=2mm, leftrule=.75mm, opacityback=0, opacitybacktitle=0.6, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, titlerule=0mm, toprule=.15mm, toptitle=1mm]
+
 \textbf{Reagan} with Polly, Chelsea, Marc, Sharad, Bob, Brinley?
 
 \begin{itemize}
@@ -269,34 +287,139 @@ experiential learning experiences for students.
   Discussion of the barriers in higher education to aligning incentives
 \end{itemize}
 
+\end{tcolorbox}
+
 \section{The Analytics Solutions Center}\label{sec-asc}
+
+The Analytics Solutions Center (ASC) in the Jon M. Hunstman School of
+Business at Utah State University, Utah's land-grant institution, is a
+faculty-supervised, industry-partnered applied learning environment.
+Undergraduate and graduate students in the ASC complete data work on
+authentic client-facing projects in data analytics, information systems,
+data engineering, artificial intelligence, and related STEM and
+technology domains. Student teams collaborate with industry, nonprofit,
+public-sector, and university partners on interdisciplinary projects
+spanning analytics, computing, public-sector, and community-focused STEM
+applications. The ASC operates as a layered mentoring ecosystem: faculty
+mentors provide disciplinary and methodological guidance, advanced
+graduate and undergraduate students serve as near-peer mentors within
+project teams, and industry clients engage directly with student teams
+throughout the project lifecycle. Sponsoring organizations (including
+regional companies, national corporations, nonprofits, and public-sector
+entities) develop project scopes, provide data and domain access, and in
+many cases provide financial sponsorship for student work.
+
+Unlike traditional course-based project experiences, the ASC functions
+as a continuous, institutionally embedded learning environment in which
+students may engage across multiple semesters while participating in
+increasingly advanced mentoring and technical roles. Students
+participate in recurring team meetings, technical mentorship structures,
+client presentations, collaborative code and data workflows, and peer
+mentoring roles that evolve as students gain experience within the
+center. Additionally, the ASC maintains relationships with an ecosystem
+of student clubs and professional organizations across campus, including
+chapters of the Association for Information Systems and PyData, to
+provide students with additional opportunities for technical and
+professional development. The ASC's focus on applied learning via
+mentored projects while supporting and being supported by special
+interest and professional activities creates a community of practice.
+
+Since its founding in 2022, the ASC has engaged over 180 students across
+more than 100 projects, with participants representing 34 academic
+disciplines across STEM, computing, business, and social science fields.
+This wide-ranged engagement reflects Utah State's land-grant mission to
+serve a broad, interdisciplinary student population. The center has
+developed institutional partnerships at local, state, and national
+levels, including collaborations with Utah State Extension and statewide
+campuses, Utah State's Office of Data Analytics, and public-sector
+organizations across Utah. Notable aspects of the ASC include:
+
+\begin{itemize}
+\tightlist
+\item
+  A project partnership with international Meta Platforms, Inc
+\item
+  Ongoing data engineering and causal modeling work with the local Cache
+  County School District
+\item
+  A Utah Legislature-funded data engineering and analytics project
+  (HB0249, \$300K) focused on state-level fiscal risk modeling and
+  decision support
+\item
+  Recognition in the official state legislature audit for the ASC's
+  value-generating research, sustained external demand and institutional
+  support through continued partnerships and sponsored project funding,
+  and 98\% career/graduate program placement rate
+\end{itemize}
+
+The ASC model has already demonstrated replicability. The University of
+Rhode Island is currently working with ASC members to design a
+comparable center and has committed \$500,000 toward making it
+operational. This unsolicited replication effort is evidence that the
+model addresses a recognized gap at peer institutions. Land-grant
+universities across the country increasingly seek to integrate applied
+analytics into their curricula but lack a studied, documented framework
+for doing so. The ASC's success and the possibility to replicate it at
+other institutions requires an alignment of incentives between faculty,
+industry partners, and university leadership. These three areas of
+alignment are consistent with the ASC's three-fold mission: empowering
+students, providing value to external partners, and developing
+cross-disciplinary teams to address complex problems.
+
+First, to empower students through immersive, hands-on, real-world
+challenges and experiences requires faculty to be incentivized to engage
+as mentors. ASC faculty have their mentorship role included as part of
+their role statement. These mentors are both professional practice
+faculty and tenure-track faculty where project mentorship serves as a
+course release and may dovetail into academic research. The formal
+inclusion of mentorship responsibilities in faculty role statements is
+crucial for the ASC to operate. Faculty participation isn't a service,
+it's a core responsibility, and the success of ASC students is a key
+component of ASC faculty promotion and retention.
+
+Second, to provide value to external partners and serve as an economic
+driver for the region requires industry partners to be incentivized to
+engage as both clients and sponsors. With every ASC project, industry
+partners clearly understand that they are primarily providing students
+with a real-world learning experience and secondarily receiving value
+from the work the students accomplish. A key part of providing that
+real-world learning experience while ensuring that the students provide
+work that is of value to the partner is a regular meeting with the
+students and the mentor to ensure the project remains on track and
+within scope. The ASC thus operates on donation-based funding rather
+than serving a student consultancy. This model is a crucial part of how
+the ASC operates and keep the focus squarely on student learning.
+
+Third, to develop cross-disciplinary teams that address complex
+analytical problems and create technological innovations requires
+university leadership to be incentivized to help fund the center and
+support its operations. The ASC has been supported by the Jon M.
+Hunstman School of Business, specifically by the Department of Data
+Analytics and Information Systems, which has provided support for the
+center and serves as the academic home for the cross-disciplinary
+assortment of professional practice and tenure-track ASC faculty
+mentors. This support is crucial for the ASC to operate and have the
+necessary resources for students and faculty mentors to succeed.
+
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, bottomrule=.15mm, bottomtitle=1mm, breakable, colback=white, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, coltitle=black, left=2mm, leftrule=.75mm, opacityback=0, opacitybacktitle=0.6, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, titlerule=0mm, toprule=.15mm, toptitle=1mm]
 
 \textbf{Marc} with Tyler, Polly, Chris, Doug, Kelly, Sharad?
 
 \begin{itemize}
 \tightlist
 \item
-  Genesis of the ASC
-\item
-  Reference mission and values
-\item
-  Describe role of mentorship and community
-\item
   Reference ASC recognition and success (number of sponsors, money
   raised, placement numbers, etc.)
 \item
   Include additional anecdotal evidence of sucess (e.g., student and
   partner testimonials)
-\item
-  Detail faculty mentor incentive alignment, both professional practice
-  and tenure-track roles, including a discussion of the relationship
-  between ASC and academic research
-\item
-  Detail industry partner incentive alignment, including the
-  donation-based funding model
 \end{itemize}
 
+\end{tcolorbox}
+
 \section{Conclusion}\label{sec-conclusion}
+
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, bottomrule=.15mm, bottomtitle=1mm, breakable, colback=white, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, coltitle=black, left=2mm, leftrule=.75mm, opacityback=0, opacitybacktitle=0.6, rightrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, titlerule=0mm, toprule=.15mm, toptitle=1mm]
 
 \begin{itemize}
 \tightlist
@@ -310,9 +433,15 @@ experiential learning experiences for students.
   Plans for future research about the ASC, including tracking any
   additional student outcomes as part of ESL/NSF grant?
 \item
+  Reference the vision to be ``the premier center in the Intermountain
+  West for applied academics at the forefront of data analytics and
+  technological innovation.''
+\item
   Discuss implications for Utah State University, including Sage
   Academy, specifically and higher education more broadly
 \end{itemize}
+
+\end{tcolorbox}
 
 
 \bibliography{references.bib}

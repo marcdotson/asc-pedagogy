@@ -59,29 +59,49 @@ Experiential learning is quite simply learning by doing. It includes real-world 
 
 ## Experiential Learning {#sec-literature}
 
+::: {.callout-note}
 **Reagan** with Polly, Chelsea, Marc, Sharad, Bob, Brinley?
 
 - Literature review on the benefits of experiential learning
 - Reference to relevant pedagogical frameworks
 - Literature (if any?) on how to enable experiential learning effectively
 - Discussion of the barriers in higher education to aligning incentives
+:::
 
 ## The Analytics Solutions Center {#sec-asc}
 
+The Analytics Solutions Center (ASC) in the Jon M. Hunstman School of Business at Utah State University, Utah's land-grant institution, is a faculty-supervised, industry-partnered applied learning environment. Undergraduate and graduate students in the ASC complete data work on authentic client-facing projects in data analytics, information systems, data engineering, artificial intelligence, and related STEM and technology domains. Student teams collaborate with industry, nonprofit, public-sector, and university partners on interdisciplinary projects spanning analytics, computing, public-sector, and community-focused STEM applications. The ASC operates as a layered mentoring ecosystem: faculty mentors provide disciplinary and methodological guidance, advanced graduate and undergraduate students serve as near-peer mentors within project teams, and industry clients engage directly with student teams throughout the project lifecycle. Sponsoring organizations (including regional companies, national corporations, nonprofits, and public-sector entities) develop project scopes, provide data and domain access, and in many cases provide financial sponsorship for student work.
+
+Unlike traditional course-based project experiences, the ASC functions as a continuous, institutionally embedded learning environment in which students may engage across multiple semesters while participating in increasingly advanced mentoring and technical roles. Students participate in recurring team meetings, technical mentorship structures, client presentations, collaborative code and data workflows, and peer mentoring roles that evolve as students gain experience within the center. Additionally, the ASC maintains relationships with an ecosystem of student clubs and professional organizations across campus, including chapters of the Association for Information Systems and PyData, to provide students with additional opportunities for technical and professional development. The ASC's focus on applied learning via mentored projects while supporting and being supported by special interest and professional activities creates a community of practice.
+
+Since its founding in 2022, the ASC has engaged over 180 students across more than 100 projects, with participants representing 34 academic disciplines across STEM, computing, business, and social science fields. This wide-ranged engagement reflects Utah State's land-grant mission to serve a broad, interdisciplinary student population. The center has developed institutional partnerships at local, state, and national levels, including collaborations with Utah State Extension and statewide campuses, Utah State's Office of Data Analytics, and public-sector organizations across Utah. Notable aspects of the ASC include:
+
+- A project partnership with international Meta Platforms, Inc
+- Ongoing data engineering and causal modeling work with the local Cache County School District
+- A Utah Legislature-funded data engineering and analytics project (HB0249, $300K) focused on state-level fiscal risk modeling and decision support 
+- Recognition in the official state legislature audit for the ASC’s value-generating research, sustained external demand and institutional support through continued partnerships and sponsored project funding, and 98% career/graduate program placement rate
+
+The ASC model has already demonstrated replicability. The University of Rhode Island is currently working with ASC members to design a comparable center and has committed $500,000 toward making it operational. This unsolicited replication effort is evidence that the model addresses a recognized gap at peer institutions. Land-grant universities across the country increasingly seek to integrate applied analytics into their curricula but lack a studied, documented framework for doing so. The ASC's success and the possibility to replicate it at other institutions requires an alignment of incentives between faculty, industry partners, and university leadership. These three areas of alignment are consistent with the ASC's three-fold mission: empowering students, providing value to external partners, and developing cross-disciplinary teams to address complex problems.
+
+First, to empower students through immersive, hands-on, real-world challenges and experiences requires faculty to be incentivized to engage as mentors. ASC faculty have their mentorship role included as part of their role statement. These mentors are both professional practice faculty and tenure-track faculty where project mentorship serves as a course release and may dovetail into academic research. The formal inclusion of mentorship responsibilities in faculty role statements is crucial for the ASC to operate. Faculty participation isn't a service, it's a core responsibility, and the success of ASC students is a key component of ASC faculty promotion and retention.
+
+Second, to provide value to external partners and serve as an economic driver for the region requires industry partners to be incentivized to engage as both clients and sponsors. With every ASC project, industry partners clearly understand that they are primarily providing students with a real-world learning experience and secondarily receiving value from the work the students accomplish. A key part of providing that real-world learning experience while ensuring that the students provide work that is of value to the partner is a regular meeting with the students and the mentor to ensure the project remains on track and within scope. The ASC thus operates on donation-based funding rather than serving a student consultancy. This model is a crucial part of how the ASC operates and keep the focus squarely on student learning.
+
+Third, to develop cross-disciplinary teams that address complex analytical problems and create technological innovations requires university leadership to be incentivized to help fund the center and support its operations. The ASC has been supported by the Jon M. Hunstman School of Business, specifically by the Department of Data Analytics and Information Systems, which has provided support for the center and serves as the academic home for the cross-disciplinary assortment of professional practice and tenure-track ASC faculty mentors. This support is crucial for the ASC to operate and have the necessary resources for students and faculty mentors to succeed.
+
+::: {.callout-note}
 **Marc** with Tyler, Polly, Chris, Doug, Kelly, Sharad?
 
-- Genesis of the ASC
-- Reference mission and values
-- Describe role of mentorship and community
 - Reference ASC recognition and success (number of sponsors, money raised, placement numbers, etc.)
 - Include additional anecdotal evidence of sucess (e.g., student and partner testimonials)
-- Detail faculty mentor incentive alignment, both professional practice and tenure-track roles, including a discussion of the relationship between ASC and academic research
-- Detail industry partner incentive alignment, including the donation-based funding model
+:::
 
 ## Conclusion {#sec-conclusion}
 
+::: {.callout-note}
 - Summarize the benefits of and challenges for experiential learning in higher education
 - Summarize what the ASC has done to address these challenges and enable experiential learning
 - Plans for future research about the ASC, including tracking any additional student outcomes as part of ESL/NSF grant?
+- Reference the vision to be "the premier center in the Intermountain West for applied academics at the forefront of data analytics and technological innovation."
 - Discuss implications for Utah State University, including Sage Academy, specifically and higher education more broadly
-
+:::
