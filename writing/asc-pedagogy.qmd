@@ -16,9 +16,9 @@ author:
   # - name: "Polly Conrad"
   #   affiliation: "Utah State University"
   #   email: "polly.conrad@usu.edu"
-  # - name: "Chris Corcoran"
-  #   affiliation: "Utah State University"
-  #   email: "chris.corcoran@usu.edu"
+  - name: "Chris Corcoran"
+    affiliation: "Utah State University"
+    email: "chris.corcoran@usu.edu"
   - name: "Doug Derrick"
     affiliation: "Utah State University"
     email: "doug.derrick@usu.edu"
@@ -31,9 +31,6 @@ author:
   # - name: "Sharad Jones"
   #   affiliation: "Utah State University"
   #   email: "sharad.jones@usu.edu"
-  # - name: "Robert Mills"
-  #   affiliation: "Utah State University"
-  #   email: "robert.mills@usu.edu"
 date: "June 15, 2026"
 abstract: | 
   Higher education is changing. Public trust in the value proposition of universities and colleges has eroded in recent decades while their traditional institutional function of storing, creating, and disseminating knowledge has been challenged by content delivery on the internet and private industry investment in research and development. In response, there has been a growing emphasis within higher education on what university and colleges can uniquely provide students, including experience-based learning. However, there is a dearth of research on how to implement experience-based learning effectively and at scale. We detail how the Analytics Solutions Center at Utah State University has enabled experience-based learning for students and how it can serve as a reproducible model for other institutions.
