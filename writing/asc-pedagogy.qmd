@@ -7,122 +7,188 @@ author:
   - name: "Reagan Siggard"
     affiliation: "Utah State University"
     email: "reagan.siggard@usu.edu"
-  - name: "Brinley Zabriskie"
-    affiliation: "Utah State University"
-    email: "brinley.zabriskie@usu.edu"
-  - name: "Tyler Brough"
-    affiliation: "Utah State University"
-    email: "tyler.brough@usu.edu"
-  # - name: "Polly Conrad"
-  #   affiliation: "Utah State University"
-  #   email: "polly.conrad@usu.edu"
-  - name: "Chris Corcoran"
-    affiliation: "Utah State University"
-    email: "chris.corcoran@usu.edu"
   - name: "Doug Derrick"
     affiliation: "Utah State University"
     email: "doug.derrick@usu.edu"
+  - name: "Brinley Zabriskie"
+    affiliation: "Utah State University"
+    email: "brinley.zabriskie@usu.edu"
+  - name: "Chelsea Harding"
+    affiliation: "Utah State University"
+    email: "chelsea.harding@usu.edu"
+  - name: "Tyler Brough"
+    affiliation: "Utah State University"
+    email: "tyler.brough@usu.edu"
   - name: "Kelly Fadel"
     affiliation: "Utah State University"
     email: "kelly.fadel@usu.edu"
-  # - name: "Chelsea Harding"
-  #   affiliation: "Utah State University"
-  #   email: "chelsea.harding@usu.edu"
-  # - name: "Sharad Jones"
-  #   affiliation: "Utah State University"
-  #   email: "sharad.jones@usu.edu"
+  - name: "Chris Corcoran"
+    affiliation: "Utah State University"
+    email: "chris.corcoran@usu.edu"
 date: "June 15, 2026"
 abstract: | 
-  Higher education is changing. Public trust in the value proposition of universities and colleges has eroded in recent decades while their traditional institutional function of storing, creating, and disseminating knowledge has been challenged by content delivery on the internet and private industry investment in research and development. In response, there has been a growing emphasis within higher education on what university and colleges can uniquely provide students, including experience-based learning. However, there is a dearth of research on how to implement experience-based learning effectively and at scale. We detail how the Analytics Solutions Center at Utah State University has enabled experience-based learning for students and how it can serve as a reproducible model for other institutions.
+  Challenges to traditional models of higher education from industry and public perception have led to a growing interest within universities and colleges on the unique value proposition these institutions can offer students, including experience-based learning. We provide a theoretical framework and operationalized case study for implementing experience-based learning in the form of Utah State University’s Analytics Solutions Center (ASC). The ASC empowers students through immersive, hands-on experiences that address complex analytical and technological challenges while simultaneously creating measurable value for external partners and contributing to regional economic development. By assembling cross-disciplinary teams of students, faculty mentors, and industry stakeholders, the ASC provides opportunities for participants to apply classroom knowledge in professional settings, develop technical and interpersonal competencies, and engage in the creation of innovative, data-driven solutions. The ASC serves as a replicable model for other institutions of higher education.
 keywords:
-  - "Pedagogy"
-  - "Experiential Learning"
+  - "Communities of Practice"
   - "Experience-Based Learning"
+  - "Higher Education"
+  - "Pedagogy"
+  - "Sociotechnical Systems"
 bibliography: references.bib
 format: 
-  docx:
-    number-sections: true
-  # jasa-pdf: 
-  #   keep-tex: true
-  #   cite-method: natbib
-  #   journal:
-  #     blinded: false
+  # docx:
+  #   number-sections: true
+  jasa-pdf: 
+    keep-tex: true
+    cite-method: natbib
+    journal:
+      blinded: false
 execute:
   echo: false
 ---
 
 ## Introduction {#sec-intro}
 
-Higher education is changing. Public trust in the value proposition of universities and colleges has eroded in recent decades while their traditional institutional function of storing, creating, and disseminating knowledge has been challenged by content delivery on the internet and private industry investment in research and development. This friction is demonstrated in the public discourse -- including articles from the Pew Research Center, the New York Times, and Gallup News -- that reflects a broader skepticism about whether a college degree remains a worthwhile investment (Jones, 2024; Pew Research Center, 2024; Colleges face a reckoning, 2025). In response, there has been a growing focus within higher education on what universities and colleges can uniquely provide students, including experience-based learning. However, the challenge for any experience-based learning initiative is in its implementation. In this paper, we propose Utah State University's Analytics Solutions Center as a model for experience-based learning that is reproducible and scalable.
+Higher education is changing. Public trust in the value proposition of universities and colleges has eroded in recent decades while their traditional institutional function of storing, creating, and disseminating knowledge has been challenged by content delivery on the internet and private industry investment in research and development. This friction is demonstrated in the public discourse – including articles from the Pew Research Center, the New York Times, and Gallup News – that reflects a broader skepticism about whether a college degree remains a worthwhile investment (Jones, 2024; Pew Research Center, 2024; Colleges face a reckoning, 2025). In response, there has been a growing focus within higher education on what universities and colleges can uniquely provide students, including experience-based learning. However, the challenge for any experience-based learning initiative is in its implementation. In this paper, we propose Utah State University’s Analytics Solutions Center (ASC) as a model for experience-based learning in data and technology that is reproducible and scalable.
 
-The Analytics Solutions Center (ASC) in the Jon M. Huntsman School of Business at Utah State University is a faculty-supervised, industry-partnered experience-based learning initiative. Students in the ASC complete work on authentic client-facing projects in data analytics, information systems, data engineering, artificial intelligence, and related domains. Since its founding in 2022, the ASC has engaged over 180 students across more than 100 projects, with participants representing 34 academic disciplines across business, STEM, computing, and social science fields. This wide-ranged engagement reflects Utah State's land-grant mission to serve a broad, interdisciplinary student population. The ASC has been recognized by the Utah Legislature for its value-generating project work, sustained external demand and institutional support through continued partnerships and sponsored project funding, and 98% placement rate for graduating students.
+The challenges associated with the current state of higher education are born primarily by students,  especially as they search for jobs and internships. The data and technology job market continues to show both promise and complexity for technical graduates. While Bureau of Labor Statistics projections anticipate a 34% increase in data and technical-focused roles between 2024 and 2034, a higher-than average growth rate (U.S. Bureau of Labor Statistics, 2025), recent New York Fed data paradoxically place computer science and information systems among majors with the highest unemployment rates (Federal Reserve Bank of New York, n.d.) . This contradiction highlights a critical reality: While demand for talent is skyrocketing, students face challenges differentiating themselves in an oversaturated pipeline. Job opportunities exist, but students often lack the practical experience employers seek. Thus, providing real-world, experience-based work opportunities during college is essential to help them be career ready.
 
-The remainder of the paper is structured as follows. In @sec-literature we frame where the ASC's approach fits within the pedagogy literature. In @sec-asc we detail how the ASC operationalizes these theories. Finally, in @sec-conclusion we detail future research plans.
+With our focus on Utah as the state’s land-grant university, we evaluated all of Utah’s tech-based job listings on Indeed.com and reviewed the 2025 Developer Survey from Stack Overflow (Stack Overflow, 2025). The market signals from current employer postings and compensation data point to two reinforcing dynamics. First, frontier roles connected to artificial intelligence, machine learning,  and cloud architecture continue to command strong offers. Second, core "run-the-business" roles such as quality assurance/automation, web development, database administration, systems administration, and site reliability are experiencing renewed investment as companies standardize and scale their technical stacks. Across both fronts, employers consistently emphasize applied proficiency over coursework alone. As industries evolve with technological advancements, higher education must keep pace to prepare students for careers that may not have existed a few years ago. Graduates who can demonstrate end-to-end execution and creative problem-solving while documenting decisions, and communicating trade-offs will enter the market with a measurable advantage.
 
-## Literature Review {#sec-literature}
+The ASC in the Jon M. Huntsman School of Business at Utah State University is a faculty-supervised, industry-partnered experience-based learning initiative designed to provide students with the real-world work opportunities that can set them apart. It is designed to close the readiness gap by combining employer-aligned curriculum with production-grade, hands-on projects that are funded by external partners. It aligns the latest industry demands and needs through deep integration. The ASC delivers production-minded, real-world solutions for government agencies, private industry, and nonprofit partners by pairing skilled student analysts with professional practice faculty who hold deep expertise in artificial intelligence, machine learning, computer science, information systems, statistics, and data engineering.
 
-Experience-based learning, as contrasted with lecture-based learning, has long been of interest to educators and researchers. The strengths of experienced-based learning include better retention and transfer of knowledge. Studies consistently show that active engagement with material (i.e., problem-solving, simulation, and hands-on tasks) produces stronger long-term retention than passive reception (Chi et al., 1989; Freeman et al., 2014). Dewey (1938) argued that education needs to connect to real experience and that passive reception of information is insufficient. Experience-based learning also motivates deeper conceptual understanding because experience forces learners to confront gaps in their mental models in ways that passive listening does not (Bransford, Brown & Cocking, 2000). Student motivation and engagement are also strengths, especially regarding self-determination theory (Deci & Ryan, 1985), which says that autonomy and competence, when both fostered by experiential tasks, can increase intrinsic motivation.
+Over the last several years, the Center has partnered with 50+ organizations and delivered more than 70 technical solutions involving machine learning models, cloud-native data pipelines, forecasting systems, dashboards, and software applications. For example, ASC students completed a project for Meta, analyzing over 32,000 migration plots using anonymized Facebook location data to ensure accuracy in order to create one of the clearest pictures of global migration to date, as featured in the New York Times ("To Understand Global Migration," 2025). The ASC’s project model mirrors industry practice, with defined scopes, measurable deliverables, quality assurance processes, and regular sponsor reviews.
 
-However, experience-based learning is not without its limitations [need to find some more citations], most notably its inefficiency. Covering large bodies of knowledge is slow through experience only. Additionally, without expert guidance, learners can create bad habits or draw incorrect conclusions (Bransford et al., 2000). Further, Sweller’s Cognitive Load Theory (1988) states that open-ended experiences can be especially unfruitful for novices. [Note that the terms "experience-based learning" and "experiential learning" are often used interchangeably in practice while they have different definitions in the pedagogy literature.] Kolb (1984) provides the foundational text regarding experiential learning, which focuses primarily on the reflective cycle of individual learners.
+Since its founding in 2022, the ASC has engaged over 180 students across more than 100 projects, with participants representing 34 academic disciplines across business, STEM, computing, and social science fields, suggesting the model scales beyond traditional analytics programs. This wide-ranged engagement reflects Utah State’s land-grant mission to serve a broad, interdisciplinary student population. The ASC has been recognized by the Utah Legislature for its value-generating project work, sustained external demand and institutional support through continued partnerships and sponsored project funding, and maintains a 98% placement rate for graduating students whose median starting salaries are $5,000 higher on average than those of their peers.
 
-To address the limitations of experience-based learning defined broadly, we propose framing the problem using socio-technical system theory where learning necessarily consists of both technical and social components. Thus experience-based learning that is efficient, inclusive of expert guidance, and sensitive to the specific needs of novices must provide both organizational structure (the technical system) and complementary culture (the social system). In the spirit of Dewey (1938), this framing as a socio-technical system grounds any experience in reality and trains students to excel in the real-world of socio-technical systems upon graduating. Within the socio-technical systems framing, we further argue that impactful experience-based learning should live at and be reinforced by the intersection of situated learning, communities of practice, and legitimate peripheral participation.
+The remainder of the paper is structured as follows. In Section 2 we provide the theoretical framework for the ASC’s approach within the pedagogy literature. In Section 3 we detail how the ASC operationalizes these theories. Finally, we conclude with thoughts about implementing this model along with detailing future research.
 
-![](/figures/literature_intersection.png){fig-align="center" width=80%}
+## Theoretical Framework {#sec-framework}
 
-First, situated learning (Lave & Wenger, 1991) states that knowledge is inseparable from the context in which it is practiced. Learning happens not in isolation, but through participation in real-world activities and social communities. Situated learning theory also argues that meaningful learning occurs when students engage in authentic tasks within social contexts that mirror real professional practice. Thus situated learning describes the kind of experience-based learning that, as framed by socio-technical system theory, includes real-world technical work and real-world social support.
+Experience-based learning, as contrasted with lecture-based learning, has long been of interest to educators and researchers. Project-based curriculum, capstone projects, undergraduate academic research, student consulting, and similar efforts highlight the variety of experience-based learning initiatives (e.g., Rajagopalan et al., 2025; Smith, 2021). The strengths of experience-based learning include better retention and transfer of knowledge. Studies consistently show that active engagement with material (i.e., problem-solving, simulation, and hands-on tasks) produces stronger long-term retention than passive reception (Chi et al., 1989; Freeman et al., 2014). Dewey (1938) argued that education needs to connect to real experience and that passive reception of information is insufficient.
 
-Second, Wenger's communities of practice framework (1998) deepens this notion of socially supported authentic tasks. Communities of practice says that learning occurs as newcomers gradually engage with and contribute to a shared professional culture. Learners gain expertise by moving from the edges of a community toward fuller participation over time. Thus communities of practice reinforces the theoretical framing of socio-technical system theory and situated learning, with an emphasis on providing support for novices.
+Experience-based learning also motivates deeper conceptual understanding because experience forces learners to confront gaps in their mental models in ways that passive listening does not (Bransford, Brown & Cocking, 2000). Student motivation and engagement are also strengths, especially in line with self-determination theory (Deci & Ryan, 1985), which holds that autonomy and competence, when both are fostered through experiential tasks, can increase intrinsic motivation.
 
-Finally, legitimate peripheral participation is a concept introduced by Lave and Wenger (1991) that deepens our understanding of how novices enter and learn within a community of practice. Legitimate peripheral participation is also the starting point for communities of practice (Wenger, 1998). Rather than learning through traditional instruction and onboarding alone, newcomers begin at the edges of a professional community where they observe, contribute in small ways, and then gradually take on more complex and central roles over time. Note that "legitimate" means the newcomer or novice is a true participant and not playing pretend. Their contributions matter and are recognized by the community. The peripheral means they start at the edges, not yet fully responsible but present and involved in authentic work. Meanwhile, participation means they learn through doing within a social context, not through abstract study removed from practice.
+However, experience-based learning is not without its limitations. Specifically, experience-based learning is oftentimes associated with problem-based learning and other less-rigid instructional design techniques. According to Kirschner et al. (2006), "Not only is unguided instruction normally less effective; there is also evidence that it may have negative results when students acquire misconceptions or incomplete or disorganized knowledge" (p. 84). Others have found learning similar to experience-based learning to be noticeably more inefficient than guided instruction (Kirschner et al., 2006; Mayer, 2004). Additionally, without expert guidance, learners can create bad habits or draw incorrect conclusions (Bransford et al., 2000). Further, Sweller’s Cognitive Load Theory (1988) states that open-ended experiences can be especially unfruitful for novices.
 
-Experience-based learning includes both technical and social components. The weaknesses of inefficiency, lack of expert guidance, and potential harm to novices can be addressed when reinforced by the support of situated learning, communities of practice, and legitimate peripheral participation. We'll next detail how the ASC operationalizes these theories.
+Experience-based learning is often referred to as “experiential learning” in practice. Kolb (1984) provides the foundational text regarding experiential learning, which focuses primarily on the reflective cycle of individual learners. While student reflection is certainly an important aspect of learning, it isn’t the focus of this project. We’ll continue to refer to experience-based learning in this paper while acknowledging the use of experiential learning, including by the ASC, as a synonym in practice.
 
-## The Analytics Solutions Center {#sec-asc}
+To reinforce the strengths and address the limitations of experience-based learning, we employ three theoretical pillars, namely situated learning, communities of practice, and sociotechnical systems. 
 
-In the ASC, student teams collaborate with industry, nonprofit, public-sector, and university partners on interdisciplinary projects spanning analytics, computing, public-sector, and community-focused STEM applications. The ASC operates as a layered mentoring ecosystem: faculty mentors provide disciplinary and methodological guidance, advanced graduate and undergraduate students serve as near-peer mentors within project teams, and industry clients engage directly with student teams throughout the project lifecycle. Sponsoring organizations (including regional companies, national corporations, nonprofits, and public-sector entities) develop project scopes, provide data and domain access, and in many cases provide financial sponsorship for student work.
+### Situated Learning
 
-Unlike traditional course-based project experiences, the ASC functions as a continuous, institutionally embedded learning environment in which students may engage across multiple semesters while participating in increasingly advanced mentoring and technical roles. Students participate in recurring team meetings, technical mentorship structures, client presentations, collaborative code and data workflows, and peer mentoring roles that evolve as students gain experience within the center. Additionally, the ASC maintains relationships with an ecosystem of student clubs and professional organizations across campus, including chapters of the Association for Information Systems and PyData, to provide students with additional opportunities for technical and professional development. This ecosystem includes opportunities for innovation, encouraging students (including newcomers on the periphery) to help own the direction of the ASC by bootstrapping their own projects. The ASC's focus on applied learning via mentored projects while supporting and being supported by special interest and professional activities creates experience-based learning that is situated in a community of practice while being sensitive to legitimate peripheral participation.
+Situated learning (Lave & Wenger, 1991) states that knowledge is inseparable from the context in which it is practiced. For example, drivers education requires student practice behind the wheel and not theoretical and simulated learning alone.  Situated learning is currently being used in x, y, and z examples (newer citations). Learning doesn’t happen in isolation. Through participation in real-world activities and social communities, learning has the essential context to flourish. Situated learning theory also argues that meaningful learning occurs when students engage in authentic tasks within social contexts that mirror real professional practice. Thus situated learning describes the kind of experience-based learning that includes real-world technical work and social support.
+
+### Communities of Practice
+
+Wenger’s communities of practice framework (1998) deepens this notion of socially supported authentic tasks. Communities of practice says that learning occurs as newcomers gradually engage with and contribute to a shared professional culture. Learners gain expertise by moving from the edges of a community toward fuller participation over time. Thus communities of practice complements the theoretical framing of situated learning by emphasizing support for novice learners.
+
+This support is further supported by legitimate peripheral participation, a concept introduced by Lave and Wenger (1991) that deepens our understanding of how novices enter and learn within a community of practice. Legitimate peripheral participation is also the starting point for communities of practice (Wenger, 1998). Rather than learning through traditional instruction and onboarding alone, newcomers begin at the edges of a professional community where they observe, contribute in small ways, and then gradually take on more complex and central roles over time. Note that “legitimate” means the newcomer or novice is a true participant and not playing pretend. Their contributions matter and are recognized by the community. The peripheral means they start at the edges, not yet fully responsible but present and involved in authentic work. Meanwhile, participation means they learn through doing within a social context, not through abstract study removed from practice.
+
+### Sociotechnical Systems
+
+Finally, sociotechnical systems (STS) theory, which  originated in the early 1950s from research on a British coal mine specifically by Trist and Bamforth's (1951) study regarding how the longwall mining method disrupted established social structures of a work group. The basis of STS is that organizations consist of two subsystems that are interdependent: a social subsystem of people and their work-related attitudes, relationships, work culture, and experiences and technical system complete with tools, techniques, and procedures (Palsmore et al., 1982). These systems are complementary and cannot be designed or analyzed without one another (Trist, 1981). The basis of this theory hinges on the fact that optimizing either subsystem without optimizing the other produces less-than-ideal outcomes for the entire system as a whole, so the social and technical subsystems must be designed together (Cherns, 1976; Pasmore et al., 1982). This theory is a part of information systems research (Baxter & Somerville, 2011; Mumford, 2006) and is a dominant theory for understanding how learning happens at the intersection of human activity and technology.
+
+Experience-based learning’s weaknesses of inefficiency, lack of expert guidance, and potential harm to novices can be addressed when reinforced by the pillars of situated learning, communities of practice, and sociotechnical systems theory. We’ll next detail how the ASC operationalizes these theories and addresses the challenges posed by each.
+
+## Operationalization {#sec-operationalize}
+
+The ASC operates within a learning ecosystem in which students, faculty, and organizational partners collaboratively address real-world challenges. Grounded in situated learning theories, communities of practice, and sociotechnical systems theory, the ASC enables students to develop professional competencies through authentic project engagement while simultaneously creating measurable organizational value and advancing applied research. Through this model, learning, innovation, and impact become mutually reinforcing outcomes.
+
+### Incentivizing Situated Learning
+
+The ASC creates a situated learning experience for students. In the ASC, student teams collaborate with industry, nonprofit, public-sector, and university partners on interdisciplinary projects spanning analytics, computing, public-sector, and community-focused STEM applications. Students engage with authentic client projects with real problems, datasets, and stakeholder meetings. 
+
+One of the missions of the ASC is to empower students through immersive, hands-on, real-world challenges and experiences. In alliance with situated learning, students are tackling real projects. These real projects with stakeholders require faculty to be incentivized to engage as mentors and anchor experience-based learning with expert guidance. This helps minimize the critique of experience-based learning that it can be too broad and large in scope - the faculty and subsequently industry partners provide guidance, barriers, and check-ins. 
+
+ASC faculty have their mentorship role included as part of their role statement. These mentors are both professional practice faculty and tenure-track faculty where project mentorship can serve as a course release and may dovetail into academic research. The formal inclusion of mentorship responsibilities in faculty role statements is crucial for the ASC to operate. By working within the ASC and mentoring project, faculty are also connected with current industry demands. For ASC faculty mentors, participation isn’t a bonus service, it’s a core responsibility, and the success of ASC students is a key component of ASC faculty promotion and retention.
+
+Another mission of the ASC is to provide value to external partners and serve as an economic driver for the region, which requires industry partners to be incentivized to engage as both clients and sponsors by providing authentic work experiences. With every ASC project, industry partners clearly understand that they are primarily providing students with a real-world learning experience and secondarily receiving value from the work the students accomplish. A key part of providing that real-world learning experience, while ensuring that the students provide work that is of value to the partner, is a regular meeting with the students and the mentor to ensure the project remains on track and within scope. The ASC thus operates on donation-based funding rather than serving a student consultancy. This model is a crucial part of how the ASC operates and keeps the focus squarely on authentic student learning in a situated learning space.
+
+### Creating a Community of Practice
+
+Unlike traditional course-based project experiences, the ASC functions as a continuous, institutionally embedded learning environment in which students may engage across multiple semesters while participating in increasingly advanced mentoring and technical roles. Students participate in recurring team meetings, technical mentorship structures, client presentations, collaborative code and data workflows, and peer mentoring roles that evolve as students gain experience within the center. Additionally, the ASC maintains relationships with an ecosystem of student clubs, specifically the Data Analytics and Information Systems Student Association (DAISSA), and professional organizations across campus, including chapters of the Association for Information Systems and PyData, to provide students with additional opportunities for technical and professional development. 
+
+Students are generally introduced into the ASC through the “periphery” of student and professional organizations. These organizations serve as an entry point for students to get involved, especially when they are new to the university and college experience. The students then receive mentoring from faculty, collaborate with other students, participate in leadership positions, and eventually end up working on an ASC project shifting them further towards the middle of the diagram below (see Figure 1). 
+
+This ecosystem, diagramed in Figure 1 below, includes opportunities for innovation, encouraging students (including newcomers on the periphery) to help own the direction of the ASC by bootstrapping their own projects. The ASC’s focus on experience-based learning via mentored projects while supporting and being supported by special interest and professional activities creates experience-based learning that is situated in a community of practice while being sensitive to legitimate peripheral participation.
+
+The ASC operates as a layered mentoring ecosystem which directly contributes to the community of practice: faculty mentors provide disciplinary and methodological guidance, advanced graduate and undergraduate students serve as near-peer mentors within project teams, and industry clients engage directly with student teams throughout the project lifecycle. Sponsoring organizations (including regional companies, national corporations, nonprofits, and public-sector entities) develop project scopes, provide data and domain access, and in many cases provide financial sponsorship for student work.
 
 ![](/figures/theory_operationalized.png){fig-align="center" width=80%}
 
-The ASC model has already demonstrated replicability. The University of Rhode Island is currently working with ASC members to design a comparable center and has committed $500,000 toward making it operational. This unsolicited replication effort is evidence that the model addresses a recognized gap at peer institutions. Land-grant universities across the country increasingly seek to integrate applied analytics into their curricula but lack a studied, documented framework for doing so. The ASC's success and the possibility to replicate it at other institutions requires an alignment of incentives between faculty, industry partners, and university leadership. These three areas of alignment are consistent with the ASC's three-fold mission: empowering students, providing value to external partners, and developing cross-disciplinary teams to address complex problems.
+### Institutionalizing Sociotechnical Support
 
-First, to empower students through immersive, hands-on, real-world challenges and experiences requires faculty to be incentivized to engage as mentors and anchor experience-based learning with expert guidance. ASC faculty have their mentorship role included as part of their role statement. These mentors are both professional practice faculty and tenure-track faculty where project mentorship serves as a course release and may dovetail into academic research. The formal inclusion of mentorship responsibilities in faculty role statements is crucial for the ASC to operate. Faculty participation isn't a bonus service, it's a core responsibility, and the success of ASC students is a key component of ASC faculty promotion and retention.
+The ASC is a sociotechnical system preparing students for a career in sociotechnical systems. The work culture, people, and community built within the ASC as part of the socio in sociotechnical systems is paramount to the success of the ASC. Weekly recurring events, Maker Monday and Innovation Lab, promote a sense of belonging and provide an avenue for community and culture building. This social aspect is especially important as an entry point for newcomers and provides an opportunity for students to self-organize their own projects of interest and seek faculty mentorship outside of paid sponsored projects.
 
-Second, to provide value to external partners and serve as an economic driver for the region requires industry partners to be incentivized to engage as both clients and sponsors by providing authentic work experiences. With every ASC project, industry partners clearly understand that they are primarily providing students with a real-world learning experience and secondarily receiving value from the work the students accomplish. A key part of providing that real-world learning experience, while ensuring that the students provide work that is of value to the partner, is a regular meeting with the students and the mentor to ensure the project remains on track and within scope. The ASC thus operates on donation-based funding rather than serving a student consultancy. This model is a crucial part of how the ASC operates and keep the focus squarely on student learning.
+The technical in sociotechnical systems is also supported by these weekly events, including workshops to help students retool and upskill. For students at the core of the community of practice, they are also constantly developing technical skills as part of their involvement in sponsored projects as they learn the necessary tools, processes, and procedures to help their identified stakeholder.
 
-Third, to develop cross-disciplinary teams that address complex analytical problems and create technological innovations requires university leadership to be incentivized to help fund the center and support its operations. The ASC has been housed by the Jon M. Huntsman School of Business, specifically by the Department of Data Analytics and Information Systems, which serves as the academic home for the cross-disciplinary assortment of professional practice and tenure-track ASC faculty mentors. This support is crucial for the ASC to operate and have the necessary resources for students and faculty mentors to succeed. 
+The operationalization of the sociotechnical system dovetails with the third ASC mission, to develop cross-disciplinary teams that address complex analytical problems and create technological innovations. This requires university leadership to be incentivized to help fund the center and support its operations. The ASC has been housed by the Jon M. Huntsman School of Business, specifically by the Department of Data Analytics and Information Systems, which serves as the academic home for the cross-disciplinary assortment of professional practice and tenure-track ASC faculty mentors. This support is crucial for the ASC to operate and have the necessary resources for students and faculty mentors to succeed.
 
-## Conclusion {#sec-conclusion}
+## Conclusion and Future Research {#sec-conclusion}
 
-- Summarize the benefits of and challenges for experiential learning in higher education
-- Summarize what the ASC has done to address these challenges and enable experiential learning
-- Plans for future research about the ASC, including tracking any additional student outcomes as part of ESL/NSF grant?
-- Reference the vision to be "the premier center in the Intermountain West for applied academics at the forefront of data analytics and technological innovation."
-- Discuss implications for Utah State University, including Sage Academy, specifically and higher education more broadly
+The ASC as a model aligns educational objectives with organizational needs, fostering a mutually beneficial ecosystem in which students gain practical experience, partners receive actionable insights and technological innovations, and faculty advance applied scholarship. Through the integration of experience-based learning, research, and professional practice, the ASC serves as a mechanism for workforce development, knowledge creation, and organizational innovation.
+
+For the ASC, the theoretical value is not only that students learn by doing. Rather, the ASC creates a structured environment where students become participants in authentic sociotechnical systems, develop professional identities, create organizational value, and generate new knowledge. The ASC mission is directly connected to both experience-based learning theories and information systems theories.
+
+Students and partners have shared numerous examples of how the work of the ASC has led to improved professional opportunities. For example, an ASC said that “the experience I gained at the ASC…led to a $10,000 difference in salary.” Another student reported that attending Utah State University as opposed to a competing university was ultimately determined by the opportunity to participate with the ASC. A partner said that the ASC provided “an obscene amount of value. There is very little fluff. You're dealing with legitimate quantitative professionals, and they are students.”
+
+The ASC as a model for experience-based learning has already demonstrated replicability. The University of Rhode Island is currently working with the ASC to design a comparable center and has committed $500,000 toward making it operational. This unsolicited replication effort is evidence that the model addresses a recognized gap at peer institutions. Land-grant universities across the country increasingly seek to integrate experience-based learning but lack a studied, documented framework for doing so.
+
+The three pillars of situated learning, communities of practice, and sociotechnical systems provide a theoretical framework that addresses the limitations of experience-based learning. The ASC’s success and the potential to replicate it at other institutions requires an operationalization of this theoretical framework through an alignment of incentives between faculty, industry partners, and university leadership together with creating opportunities for socialization and technical skill development, including for novices and other students along the periphery.
+
+The ASC is an experiment focused on the future of higher education and will continue to evolve as it scales to afford more students the opportunity to gain real-world experience to both deepen their learning and help them prepare for future opportunities. We are planning a more formal study of the ASC and its impact on student understanding, confidence, and success both before and after graduation, including studying a cohort of students who are afforded an opportunity for such experience-based learning from the very beginning of their university career.
 
 ## References
 
-Bransford, J. D., Brown, A. L., & Cocking, R. R. (Eds.). (2000). How people learn: Brain, mind, experience, and school (Expanded ed.). National Academy Press. 
+Baxter, G., & Sommerville, I. (2011). Socio-technical systems: From design methods to systems engineering. Interacting with Computers, 23(1), 4–17.
 
-Chi, M. T. H., Bassok, M., Lewis, M. W., Reimann, P., & Glaser, R. (1989). Self-explanations: How students study and use examples in learning to solve problems. Cognitive Science, 13(2), 145–182. 
+Bransford, J. D., Brown, A. L., & Cocking, R. R. (Eds.). (2000). How people learn: Brain, mind, experience, and school (Expanded ed.). National Academy Press.
 
-Colleges face a reckoning: Is a degree really necessary? (2025, October 22). The New York Times. https://www.nytimes.com/2025/10/22/us/value-of-higher-education-attainment-rates-graduation.html 
+Cherns, A. (1976). The principles of sociotechnical design. Human Relations, 29(8), 783–792. 
 
-Deci, E. L., & Ryan, R. M. (1985). Intrinsic motivation and self-determination in human behavior. Plenum Press. 
+Chi, M. T. H., Bassok, M., Lewis, M. W., Reimann, P., & Glaser, R. (1989). Self-explanations: How students study and use examples in learning to solve problems. Cognitive Science, 13(2), 145–182.
+
+Colleges face a reckoning: Is a degree really necessary? (2025, October 22). The New York Times. https://www.nytimes.com/2025/10/22/us/value-of-higher-education-attainment-rates-graduation.html
+
+Deci, E. L., & Ryan, R. M. (1985). Intrinsic motivation and self-determination in human behavior. Plenum Press.
 
 Dewey, J. (1938). Experience and education. Macmillan.
 
-Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., & Wenderoth, M. P. (2014). Active learning increases student performance in science, engineering, and mathematics. Proceedings of the National Academy of Sciences, 111(23), 8410–8415. 
+Federal Reserve Bank of New York. (n.d.). The labor market for recent college graduates. Retrieved June 13, 2026, from https://www.newyorkfed.org/research/college-labor-market#--:explore:outcomes-by-major 
 
-Jones, J. M. (2024). U.S. confidence in higher education now closely divided. Gallup. https://news.gallup.com/poll/646880/confidence-higher-education-closely-divided.aspx 
+Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., & Wenderoth, M. P. (2014). Active learning increases student performance in science, engineering, and mathematics. Proceedings of the National Academy of Sciences, 111(23), 8410–8415.
+
+Jones, J. M. (2024). U.S. confidence in higher education now closely divided. Gallup. https://news.gallup.com/poll/646880/confidence-higher-education-closely-divided.aspx
+
+Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work: An analysis of the failure of constructivist, discovery, problem-based, experiential, and inquiry-based teaching. Educational Psychologist, 41(2), 75–86. https://doi.org/10.1207/s15326985ep4102_1 
 
 Kolb, D. A. (1984). Experiential learning: Experience as the source of learning and development. Prentice Hall.
 
 Lave, J., & Wenger, E. (1991). Situated learning: Legitimate peripheral participation. Cambridge University Press.
 
-Rosowsky, D. (2026). Six things we hope to see from US higher education in 2026. Forbes. https://www.forbes.com/sites/davidrosowsky/2026/01/05/six-things-we-hope-to-see-from-us-higher-education-in-2026/ 
+Mayer R. E. (2004). Should there be a three-strikes rule against pure discovery learning? The case for guided methods of instruction. The American psychologist, 59(1), 14–19. https://doi.org/10.1037/0003-066X.59.1.14
 
-Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. Cognitive Science, 12(2), 257–285. 
+Mumford, E. (2006). The story of socio-technical design: Reflections on its successes, failures and potential. Information Systems Journal, 16(4), 317–342. 
+
+Pasmore, W., Francis, C., Haldeman, J., & Shani, A. (1982). Sociotechnical systems: A North American reflection on empirical studies of the seventies. Human Relations, 35(12), 1179–1204.
+
+Rajagopalan, H. K., Woodside, S., & Lawrimore Belanger, K. (2025). An agile approach to student consulting projects: Iteration and communication to improve decision making, presentations, and teamwork. INFORMS Transactions on Education, 26(1), 34–47. https://doi.org/10.1287/ited.2023.0057
+
+Rosowsky, D. (2026). Six things we hope to see from US higher education in 2026. Forbes. https://www.forbes.com/sites/davidrosowsky/2026/01/05/six-things-we-hope-to-see-from-us-higher-education-in-2026/
+
+Smith, R. (2021). Developing a senior project management capstone course for information systems and technology majors. Issues in Information Systems, 22(3), 14–25. https://doi.org/10.48009/3_iis_2021_16-28 
+
+Stack Overflow. (2025). 2025 Stack Overflow Developer Survey. https://survey.stackoverflow.co/2025 
+
+Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. Cognitive Science, 12(2), 257–285.
+
+To understand global migration, you have to see it first. (2025, April 17). The New York Times. https://www.nytimes.com/interactive/2025/04/17/opinion/global-migration-facebook-data.html 
+
+Trist, E. L., & Bamforth, K. W. (1951). Some social and psychological consequences of the longwall method of coal-getting. Human Relations, 4(1), 3–38. 
+
+Trist, E. L. (1981). The evolution of socio-technical systems: A conceptual framework and an action research program (Occasional Paper No. 2). Ontario Quality of Working Life Centre. 
+
+U.S. Bureau of Labor Statistics. (2025, August 28). Data scientists. In Occupational outlook handbook. U.S. Department of Labor. https://www.bls.gov/ooh/math/data-scientists.htm 
 
 Wenger, E. (1998). Communities of practice: Learning, meaning, and identity. Cambridge University Press.
